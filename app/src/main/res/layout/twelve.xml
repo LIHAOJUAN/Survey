@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.lihaojuan.survey.MainActivity">
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Next"
+        android:background="@color/colorPrimary"
+        android:textAllCaps="false"
+        android:id="@+id/btn12"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What do you think of this app should have to help you feed fish better?(Choose all that apply)"
+        android:textSize="35dp"
+        android:gravity="center_horizontal"
+        android:id="@+id/tvStep12"
+        android:textColor="#009FFF"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tvStep12"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/btn12">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Temperature contol"
+                android:id="@+id/cb121"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Automatic feeding"
+                android:id="@+id/cb122"
+                android:layout_below="@id/cb121"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Automatic oxygen pump"
+                android:id="@+id/cb123"
+                android:layout_below="@id/cb122"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Automatic filtration water quality"
+                android:id="@+id/cb124"
+                android:layout_below="@id/cb123"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Automatically adjust pH value"
+                android:id="@+id/cb125"
+                android:layout_below="@id/cb124"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Remote control feeding"
+                android:id="@+id/cb126"
+                android:layout_below="@id/cb125"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Give professional guidance"
+                android:id="@+id/cb127"
+                android:layout_below="@id/cb126"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Check water quality"
+                android:id="@+id/cb128"
+                android:layout_below="@id/cb127"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Can socialize"
+                android:id="@+id/cb129"
+                android:layout_below="@id/cb128"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Can buy fish products"
+                android:id="@+id/cb1210"
+                android:layout_below="@id/cb129"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Advice from experts"
+                android:id="@+id/cb1211"
+                android:layout_below="@id/cb1210"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="You can talk to other people"
+                android:id="@+id/cb1212"
+                android:layout_below="@id/cb1211"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fish can be monitored in real time"
+                android:id="@+id/cb1213"
+                android:layout_below="@id/cb1212"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fish can be viewed through the camera"
+                android:id="@+id/cb1214"
+                android:layout_below="@id/cb1213"/>
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

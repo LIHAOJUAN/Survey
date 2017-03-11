@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:text="Which city do you live in?"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvStep6"
+        android:textSize="35dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="20dp"
+        android:textColor="#009FFF"
+        />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="360dp"
+        android:id="@+id/lv6"
+        android:layout_marginTop="10dp"
+        android:layout_weight="0.40" />
+
+    <Button
+        android:text="Please choose your city"
+        android:layout_width="347dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn6"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="10dp"
+        android:layout_weight="0.01" />
+
+</LinearLayout>

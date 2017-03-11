@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:text="What is the most important thing that confused you when you feed fish?"
+        android:layout_width="wrap_content"
+        android:layout_height="110dp"
+        android:id="@+id/tvStep9"
+        android:textSize="35dp"
+        android:layout_weight="0.07"
+        android:layout_marginTop="80dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="20dp"
+        android:textColor="#009FFF"
+        />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:id="@+id/rgStep9"
+        >
+        <RadioButton
+            android:id="@+id/rb9a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forget to change water"
+            android:textSize="25sp"
+            />
+
+        <RadioButton
+            android:id="@+id/rb9b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5000~10000 yuan"
+            android:textSize="25sp" />
+
+        <RadioButton
+            android:id="@+id/rb9c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Don't know how to control the temperature"
+            android:textSize="25sp" />
+
+        <RadioButton
+            android:id="@+id/rb9d"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Don't know how to feed them at all"
+            android:textSize="25sp" />
+
+    </RadioGroup>
+
+    <Button
+        android:text="Next"
+        android:layout_width="347dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn9"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="50dp"        />
+
+</LinearLayout>

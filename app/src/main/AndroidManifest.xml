@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.lihaojuan.survey">
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Survey"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".StepOneActivity"
+            android:label="Survey:Step one" >
+        </activity>
+
+        <activity
+            android:name=".StepTwoActivity"
+            android:label="Survey:Step two" >
+        </activity>
+
+        <activity
+            android:name=".StepThreeActivity"
+            android:label="Survey:Step three" >
+        </activity>
+
+        <activity
+            android:name=".StepFourActivity"
+            android:label="Survey:Step four" >
+        </activity>
+
+        <activity
+            android:name=".StepFiveActivity"
+            android:label="Survey:Step five" >
+        </activity>
+
+        <activity
+            android:name=".StepSixActivity"
+            android:label="Survey:Step six" >
+        </activity>
+
+        <activity
+            android:name=".StepSevenActivity"
+            android:label="Survey:Step seven" >
+        </activity>
+
+        <activity
+            android:name=".StepEightActivity"
+            android:label="Survey:Step eight" >
+        </activity>
+
+        <activity
+            android:name=".StepNineActivity"
+            android:label="Survey:Step nine" >
+        </activity>
+
+        <activity
+            android:name=".StepTenActivity"
+            android:label="Survey:Step ten" >
+        </activity>
+
+        <activity
+            android:name=".StepElevenActivity"
+            android:label="Survey:Step eleven" >
+        </activity>
+
+        <activity
+            android:name=".StepTwelveActivity"
+            android:label="Survey:Step twelve" >
+        </activity>
+
+        <activity
+            android:name=".StepEmailActivity"
+            android:label="Survey:Please input your email" >
+        </activity>
+
+        <activity
+            android:name=".StepEndActivity"
+            android:label="Survey:We are done" >
+        </activity>
+    </application>
+
+</manifest>

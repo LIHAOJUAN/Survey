@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:text="Have you ever had a fish?"
+        android:layout_width="wrap_content"
+        android:layout_height="31dp"
+        android:id="@+id/tvStep3"
+        android:textSize="35dp"
+        android:layout_weight="0.07"
+        android:layout_marginTop="80dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#009FFF"
+        />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="120dp"
+        android:id="@+id/rgStep3"
+        >
+        <RadioButton
+            android:id="@+id/rbYes3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yes"
+            android:textSize="25sp"
+            />
+
+        <RadioButton
+            android:id="@+id/rbNO3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No"
+            android:textSize="25sp" />
+    </RadioGroup>
+
+    <Button
+        android:text="Next"
+        android:layout_width="347dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn3"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="150dp"        />
+
+</LinearLayout>

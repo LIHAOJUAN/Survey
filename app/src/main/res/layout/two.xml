@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:text="What is your age?"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:id="@+id/tvStep2"
+        android:textSize="35dp"
+        android:layout_weight="0.07"
+        android:layout_marginTop="80dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#009FFF"
+        />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="80dp"
+        android:id="@+id/rgStep2"
+        >
+        <RadioButton
+            android:id="@+id/rbage1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="17~25"
+            android:textSize="25sp"
+            android:fontFamily=""/>
+
+        <RadioButton
+            android:id="@+id/rbage2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="26~32"
+            android:textSize="25sp" />
+
+        <RadioButton
+            android:id="@+id/rbage3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="32~40"
+            android:textSize="25sp" />
+
+        <RadioButton
+            android:id="@+id/rbage4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="40~50"
+            android:textSize="25sp" />
+    </RadioGroup>
+
+    <Button
+        android:text="Next"
+        android:layout_width="347dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn2"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="100dp"        />
+
+</LinearLayout>
